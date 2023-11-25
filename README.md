@@ -23,7 +23,7 @@ The User Rating smart contract is a simple Ethereum smart contract written in So
 3. **`checkHighRating() public view returns (string memory)`**
 
    - Checks if a user has received a high rating (4 or 5).
-   - If the rating is below 4, it reverts with an error message.
+   - If the rating is below 4, it `reverts` with an error message.
 
 ### Variables:
 
